@@ -19,7 +19,7 @@ body {
     margin: auto;
 }
 
-.container-small {
+.small-container {
     max-width: 1080px;
     margin: auto;
 }
@@ -37,6 +37,7 @@ body {
     color: white;
     border: none;
     font-weight: 600;
+    font-size: 12px;
     padding: 5px 15px;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -130,7 +131,43 @@ a {
 /*----------------
     MAIN
 -----------------*/
+#annuale, #mensile {
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px;
+}
 
+#annuale:checked, #mensile:checked {
+    border-color: #0061ff;
+    border-width: 3px;
+}
+
+.subscription-title h2 {
+    font-size: 38px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.subscription-title {
+    padding-top: 170px;
+}
+
+.radio-buttons {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.radio-buttons-right {
+    padding-left: 20px;
+}
 /*----------------
     FOOTER
 -----------------*/
