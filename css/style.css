@@ -11,6 +11,19 @@
     COMMONS
 -----------------*/
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container-large {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container-small {
+    max-width: 1080px;
+    margin: auto;
+}
+
 /*----------------
     BUTTONS
 -----------------*/
@@ -19,6 +32,22 @@
     HEADER
 -----------------*/
 
+.header-left {
+    width: 50%;
+}
+
+.logo, .main-nav, li, a {
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
 /*----------------
     MAIN
 -----------------*/
