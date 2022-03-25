@@ -70,7 +70,16 @@ a {
 /*----------------
     MAIN
 -----------------*/
+.hero {
+    background-color: #b4d0e7;
+}
 
+.hero-central-text {
+    text-align: left;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 60px 90px;
+}
 /*----------------
     FOOTER
 -----------------*/
