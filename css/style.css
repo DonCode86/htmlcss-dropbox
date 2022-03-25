@@ -27,18 +27,32 @@ body {
 /*----------------
     BUTTONS
 -----------------*/
-
+.button {
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+}
 /*----------------
     HEADER
 -----------------*/
 
-.header-left {
-    width: 50%;
+.header {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-right, .header-left {
+    width: 49%;
+    display: inline-block;
 }
 
 .logo, .main-nav, li, a {
     display: inline-block;
-    text-align: right;
     vertical-align: middle;
     padding: 10px;
 }
@@ -46,7 +60,12 @@ body {
 a {
     text-decoration: none;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.header-right {
+    text-align: right;
 }
 /*----------------
     MAIN
