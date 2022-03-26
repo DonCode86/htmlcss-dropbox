@@ -74,7 +74,7 @@ header {
 }
 
 .header-right, .header-left {
-    width: 70%;
+    width: 50%;
     display: inline-block;
 }
 
@@ -360,6 +360,12 @@ h3 {
     font-size: 12px;
     padding-top: 13px;
     line-height: 1.6;
+}
+/*----------------
+    Business section
+-----------------*/
+.business-title {
+    padding-top: 20px;
 }
 /*----------------
     FOOTER
