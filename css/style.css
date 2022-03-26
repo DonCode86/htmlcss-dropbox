@@ -61,6 +61,29 @@ body {
     border: 1px solid black;
 }
 
+.radio-buttons {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.radio-buttons-right {
+    padding-left: 20px;
+}
+
+.contact-office-button {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+.clients {
+    margin: 15px 30px;
+    font-size: 11px;
+    color: #0061ff;
+    padding: 0;
+    font-weight: 700;
+}
 /*----------------
     HEADER
 -----------------*/
@@ -113,6 +136,7 @@ ul a {
 .row-hero {
     position: relative;
 }
+
 .hero-left {
     width: 40%;
     padding: 10px 85px 30px 90px;
@@ -175,16 +199,6 @@ ul a {
 
 .subscription-title {
     padding-top: 160px;
-}
-
-.radio-buttons {
-    display: inline-block;
-    font-size: 11px;
-    font-weight: 700;
-}
-
-.radio-buttons-right {
-    padding-left: 20px;
 }
 
 .col-left, .col-mid, .col-right {
@@ -312,12 +326,6 @@ hr {
     font-weight: 600;
 }
 
-.contact-office-button {
-    position: absolute;
-    top: 0px;
-    right: 15px;
-}
-
 .enterprise {
     padding-bottom: 8px;
 }
@@ -402,6 +410,10 @@ background-image: url('../img/business-feature-multi-device.png');
     background-repeat: no-repeat;
 }
 
+.row-down-col {
+    margin-bottom: 50px;
+}
+
 .business-title {
     padding-top: 0;
 }
@@ -416,6 +428,16 @@ background-image: url('../img/business-feature-multi-device.png');
     font-size: 12px;
     font-weight: 700;
 }
+
+/*----------------
+    TEAM SECTION
+-----------------*/
+.team-title h3 {
+    margin-left: 30px;
+    max-width: 40%;
+    font-size: 26px;
+}
+
 /*----------------
     FOOTER
 -----------------*/
