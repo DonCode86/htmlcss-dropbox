@@ -54,6 +54,12 @@ body {
     text-align: center;
 }
 
+.partner-button {
+    background-color: white;
+    color: black;
+    margin: 15px 0;
+    border: 1px solid black;
+}
 
 /*----------------
     HEADER
@@ -68,7 +74,7 @@ header {
 }
 
 .header-right, .header-left {
-    width: 50%;
+    width: 70%;
     display: inline-block;
 }
 
@@ -166,6 +172,7 @@ ul a {
     padding-bottom: 40px;
     margin-left: 30px;
 }
+
 .subscription-title {
     padding-top: 170px;
 }
@@ -188,6 +195,52 @@ ul a {
     border: solid 1px lightgray;
 }
 
+.col-text {
+    padding: 20px;
+}
+
+.col-text h5 {
+    font-size: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.col-text ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.col-text li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.col-text li:before {
+  content: "\2714";
+  padding-right: 3px;
+  color: blue;
+}
+
+.fa-building:before {
+    font-size: 12px;
+}
+
+.fa-user-plus { 
+    padding-right: 3px;
+}
+
+.col-bottom {
+    width: 920px;
+    margin: 10px 30px 15px 30px; 
+    border: solid 1px lightgray;
+}
+
+.col-bot-text {
+    position: relative;
+    padding-bottom: 0px;
+}
+
 .sub-kind {
     display: block;
     text-align: center;
@@ -200,10 +253,6 @@ ul a {
 
 .fa-regular {
     padding: 0px 3px;
-}
-
-.col-text {
-    padding: 20px;
 }
 
 .pro {
@@ -244,12 +293,6 @@ ul a {
     vertical-align: baseline;
 }
 
-.col-text h5 {
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 20px;
-}
-
 hr {
     width: 17%;
     color: lightgray;
@@ -269,42 +312,6 @@ hr {
     font-weight: 600;
 }
 
-.col-text ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.col-text li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-.col-text li:before {
-  content: "\2714";
-  padding-right: 3px;
-  color: blue;
-}
-
-.fa-building:before {
-    font-size: 12px;
-}
-
-.fa-user-plus { 
-    padding-right: 3px;
-}
-
-.col-bottom {
-    width: 920px;
-    margin: 10px 30px 15px 30px; 
-    border: solid 1px lightgray;
-}
-
-.col-bot-text {
-    position: relative;
-    padding-bottom: 0px;
-}
-
 .contact-office-button {
     position: absolute;
     top: 0px;
@@ -322,6 +329,37 @@ hr {
 .solutions {
     font-weight: 700;
     color: #000000;
+}
+
+/*----------------
+    PARTNER SECTION (IMG LEFT, TEXT RIGHT)
+-----------------*/
+
+.partner-img {
+    width: 50%;
+    display: inline-block;
+}
+
+.partner-text {
+    width: 50%;
+    float: right;
+    padding: 90px 60px;
+}
+
+.photo-partner {
+    width: 110%;
+    padding: 70px 30px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.partner-subtext {
+    font-size: 12px;
+    padding-top: 13px;
+    line-height: 1.6;
 }
 /*----------------
     FOOTER
