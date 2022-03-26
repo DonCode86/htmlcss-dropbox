@@ -169,12 +169,12 @@ ul a {
 .subscription-title h2 {
     font-size: 32px;
     font-weight: 800;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
     margin-left: 30px;
 }
 
 .subscription-title {
-    padding-top: 170px;
+    padding-top: 160px;
 }
 
 .radio-buttons {
@@ -364,8 +364,57 @@ h3 {
 /*----------------
     Business section
 -----------------*/
+.left-col, .mid-col, .right-col {
+    width: calc(100% / 3 - 60px);
+    margin: 30px;
+    float: left;
+    min-height: 400px;
+}
+
+.left-img {
+    background-image: url('../img/business-feature-switching-tools.png');
+}
+
+.mid-img {
+background-image: url('../img/business-feature-coordinate-it.png');
+}
+
+.right-img {
+background-image: url('../img/business-feature-multi-device.png');
+}
+
+.bot-left-img {
+    background-image: url('../img/business-feature-integrations-it.png');
+}
+
+.bot-mid-img {
+    background-image: url('../img/business-feature-send-files-it.png');
+}
+
+.bot-right-img {
+    background-image: url('../img/business-feature-security.png');
+}
+.left-img, .mid-img, .right-img, .bot-left-img, .bot-mid-img, .bot-right-img {
+    width: 100%;
+    height: 200px;
+    background-position:  center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .business-title {
-    padding-top: 20px;
+    padding-top: 0;
+}
+
+.business-title-col {
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.business-article {
+    font-size: 12px;
+    font-weight: 700;
 }
 /*----------------
     FOOTER
