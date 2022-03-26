@@ -217,7 +217,7 @@ ul a {
     font-size: 15px;
 }
 
-.month {
+.month, .solutions {
     display: block;
     font-size: 11px;
     font-weight: 600;
@@ -292,6 +292,36 @@ hr {
 
 .fa-user-plus { 
     padding-right: 3px;
+}
+
+.col-bottom {
+    width: 920px;
+    margin: 10px 30px 15px 30px; 
+    border: solid 1px lightgray;
+}
+
+.col-bot-text {
+    position: relative;
+    padding-bottom: 0px;
+}
+
+.contact-office-button {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+.enterprise {
+    padding-bottom: 8px;
+}
+
+.contact-price {
+    padding-bottom: 13px;
+}
+
+.solutions {
+    font-weight: 700;
+    color: #000000;
 }
 /*----------------
     FOOTER
