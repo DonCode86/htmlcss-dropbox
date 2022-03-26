@@ -456,10 +456,11 @@ background-image: url('../img/business-feature-multi-device.png');
      margin-bottom: 3000px;     /*da eliminare */
 }
 
-.team-left-col {
+.team-left-col, .team-right-col {
     position: relative;
 }
-.first-square {
+
+.first-square, .first-square-right {
     width: 50%;
     height: 50%;
     background-color: #a2d39b;
@@ -468,7 +469,11 @@ background-image: url('../img/business-feature-multi-device.png');
     left: 0;
 }
 
-.second-square {
+.first-square-right {
+    background-color: #d5001f;
+}
+
+.second-square, .second-square-right {
     width: 50%;
     height: 50%;
     background-color: #61082b;
@@ -477,7 +482,11 @@ background-image: url('../img/business-feature-multi-device.png');
     right: 0;
 }
 
-.third-square {
+.second-square-right {
+    background-color: #b4d0e7;
+}
+
+.third-square, .third-square-right {
     width: 50%;
     height: 50%;
     background-color: #0093ce;
@@ -486,13 +495,21 @@ background-image: url('../img/business-feature-multi-device.png');
     left: 0;
 }
 
-.fourth-square {
+.third-square-right {
+    background-color: #0d2481;
+}
+
+.fourth-square, .fourth-square-right {
     width: 50%;
     height: 50%;
     background-color: #ff1c1c;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.fourth-square-right {
+    background-color: #ffd830;
 }
 
 /*----------------
