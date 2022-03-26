@@ -78,7 +78,7 @@ header {
     padding: 5px 10px;
 }
 
-a {
+ul a {
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -181,7 +181,7 @@ a {
 }
 
 .col-left, .col-mid, .col-right {
-    min-height: 600px;
+    min-height: 750px;
     width: calc(100% / 3 - 60px);
     float: left;
     margin: 30px; 
@@ -236,6 +236,64 @@ a {
 .fa-pencil {
     margin-right: 4px;
 }
+
+.buy-now {
+    color: blue;
+    font-size: 10px;
+    padding: 0px;
+    vertical-align: baseline;
+}
+
+.col-text h5 {
+    font-size: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 17%;
+    color: lightgray;
+    opacity: .2;
+    margin-bottom: 25px;
+}
+
+.plan {
+    padding-bottom: 8px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.plan-points {
+    padding: 8px 0px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.col-text ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.col-text li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.col-text li:before {
+  content: "\2714";
+  padding-right: 3px;
+  color: blue;
+}
+
+.fa-building:before {
+    font-size: 12px;
+}
+
+.fa-user-plus { 
+    padding-right: 3px;
+}
 /*----------------
     FOOTER
 -----------------*/
+
