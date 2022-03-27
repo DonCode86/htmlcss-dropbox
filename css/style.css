@@ -483,7 +483,6 @@ background-image: url('../img/business-feature-multi-device.png');
 .first-square, .first-square-right {
     width: 50%;
     height: 50%;
-    background-color: #a2d39b;
     position: absolute;
     top: 0;
     left: 0;
@@ -494,53 +493,67 @@ background-image: url('../img/business-feature-multi-device.png');
     padding-bottom: 20px;
 }
 
-.first-square {
-    background-image: url('../img/designit.svg') ;
+.team-left-col div, .team-right-col div {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+.first-square {
+    background-image: url('../img/designit-w.svg');
+    background-color: #a2d39b;
+}
+
+.second-square {
+    background-image: url('../img/arizona_state_university.svg');
+    background-color: #61082b;
+}
+
+.third-square {
+    background-image: url('../img/university_of_florida.svg');
+    background-color: #0093ce;
+}
+
+.fourth-square {
+    background-image: url('../img/topps.svg');
+    background-color: #ff1c1c;
 }
 
 .first-square-right {
+    background-image: url('../img/world_bicycle_relief.svg');
     background-color: #d5001f;
 }
 
 .second-square, .second-square-right {
-    width: 50%;
-    height: 50%;
-    background-color: #61082b;
-    position: absolute;
     top: 0;
     right: 0;
 }
 
 .second-square-right {
+    background-image: url('../img/hearst_corp.svg');
     background-color: #b4d0e7;
 }
 
 .third-square, .third-square-right {
-    width: 50%;
-    height: 50%;
-    background-color: #0093ce;
-    position: absolute;
     bottom: 0;
     left: 0;
 }
 
 .third-square-right {
+    background-image: url('../img/lonely_planet.svg');
     background-color: #0d2481;
 }
 
 .fourth-square, .fourth-square-right {
-    width: 50%;
-    height: 50%;
-    background-color: #ff1c1c;
-    position: absolute;
     bottom: 0;
     right: 0;
 }
 
 .fourth-square-right {
+    background-image: url('../img/clear_channel.svg');
     background-color: #ffd830;
 }
 
