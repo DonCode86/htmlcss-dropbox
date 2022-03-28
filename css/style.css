@@ -587,6 +587,10 @@ background-image: url('../img/business-feature-multi-device.png');
     /* border-bottom: 1px solid lightgray; */
 }
 
+.fa-angle-down {
+    margin-left: 170px;
+}
+
 /*----------------
     FOOTER
 -----------------*/
