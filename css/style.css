@@ -110,6 +110,11 @@ p {
     margin-bottom: 20px;
 }
 
+h3 {
+    font-weight: 800;
+    font-size: 28px;
+}
+
 /*----------------
     HEADER
 -----------------*/
@@ -123,7 +128,7 @@ header {
 }
 
 .header-right, .header-left {
-    width: 50%;
+    width: calc(50% - 3px);
     display: inline-block;
 }
 
@@ -377,11 +382,6 @@ hr {
 .photo-partner {
     width: 110%;
     padding: 70px 30px;
-}
-
-h3 {
-    font-weight: 800;
-    font-size: 28px;
 }
 
 .partner-subtext {
