@@ -210,7 +210,7 @@ ul a {
     border-width: 3px;
 }
 
-.subscription-title h2 {
+.subscription-title h2, .faq-title h2 {
     font-size: 32px;
     font-weight: 800;
     padding-bottom: 15px;
@@ -561,14 +561,19 @@ background-image: url('../img/business-feature-multi-device.png');
     width: 100%;
     background-color: #b4d0e7;
     min-height: 250px;
-    margin-bottom: 1000px;
     padding: 85px 688px 90px 235px;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .undersquare-row h3 {
     color: #61082b;
 }
+/*----------------
+    FAQ SECTION
+-----------------*/
+
+
 /*----------------
     FOOTER
 -----------------*/
