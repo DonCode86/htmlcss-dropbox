@@ -506,6 +506,11 @@ background-image: url('../img/business-feature-multi-device.png');
     position: absolute;
 }
 
+.square:hover {
+    border: 9px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
 .first-square {
     background-image: url('../img/designit-w.svg');
     background-color: #a2d39b;
@@ -539,6 +544,10 @@ background-image: url('../img/business-feature-multi-device.png');
 .second-square-right {
     background-image: url('../img/hearst_corp.svg');
     background-color: #b4d0e7;
+}
+
+.second-square-right:hover {
+    border: 9px solid rgba(0,0,0,0.2);
 }
 
 .third-square, .third-square-right {
@@ -589,6 +598,7 @@ background-image: url('../img/business-feature-multi-device.png');
 
 .fa-angle-down {
     margin-left: 350px;
+    cursor: pointer;
 }
 
 /*----------------
@@ -616,6 +626,7 @@ footer {
     list-style-type: none;
     line-height: 2;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .col h3 {
@@ -625,7 +636,7 @@ footer {
 
 .hr-footer {
     max-width: 10%;
-    margin: 40px 35px;
+    margin: 35px 35px;
 }
 
 .bottom-footer {
@@ -639,4 +650,8 @@ footer {
 
 .fa-earth-americas {
     margin-right: 6px;
+}
+
+.fa-caret-up {
+    margin-left: 4px;
 }
