@@ -598,13 +598,13 @@ background-image: url('../img/business-feature-multi-device.png');
 
 footer {
     background-color: black;
-    min-height: 600px;
+    min-height: 400px;
     color: white;
 }
 
 .footer-col {
     padding: 50px 60px;
-    min-height: 500px;
+    min-height: 300px;
 }
 
 .footer-col .col {
@@ -617,12 +617,12 @@ footer {
 .col li {
     list-style-type: none;
     line-height: 2;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .col h3 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .products-col {
