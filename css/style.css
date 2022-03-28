@@ -431,8 +431,8 @@ background-image: url('../img/business-feature-multi-device.png');
 
 .bot-right-img {
     background-image: url('../img/business-feature-security.png');
-
 }
+
 .left-img, .mid-img, .right-img, .bot-left-img, .bot-mid-img, .bot-right-img {
     width: 100%;
     height: 200px;
