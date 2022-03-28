@@ -625,11 +625,19 @@ footer {
 }
 
 .hr-footer {
-    color: white;
     max-width: 10%;
-    margin-left: 35px;
+    margin: 40px 35px;
 }
 
 .bottom-footer {
     margin-left: 35px;
+}
+
+.language {
+    color: #666666;
+    font-size: 11px;
+}
+
+.fa-earth-americas {
+    margin-right: 6px;
 }
