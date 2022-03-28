@@ -149,7 +149,7 @@ header {
     display: inline-block;
 }
 
-.logo, .main-nav, li, a {
+header .logo, header .main-nav, header li, header a {
     display: inline-block;
     vertical-align: middle;
     padding: 5px 10px;
@@ -578,6 +578,7 @@ background-image: url('../img/business-feature-multi-device.png');
 
 .row-faq {
     margin-left: 30px;
+    margin-bottom: 100px;
 }
 
 .row-faq h4 {
@@ -595,3 +596,35 @@ background-image: url('../img/business-feature-multi-device.png');
     FOOTER
 -----------------*/
 
+footer {
+    background-color: black;
+    min-height: 600px;
+    color: white;
+}
+
+.footer-col {
+    padding: 50px 60px;
+    min-height: 500px;
+}
+
+.footer-col .col {
+    width: calc(100% / 5);
+    float: left;
+    min-height: 400px;
+    padding: 10px 35px;
+}
+
+.col li {
+    list-style-type: none;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.col h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.products-col {
+  
+}
