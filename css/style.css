@@ -104,6 +104,12 @@ p {
     padding-top: 10px;
 }
 
+.col-text h5 {
+    font-size: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
 /*----------------
     HEADER
 -----------------*/
@@ -231,12 +237,6 @@ ul a {
 
 .col-text {
     padding: 20px;
-}
-
-.col-text h5 {
-    font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 20px;
 }
 
 .col-text ul {
@@ -448,7 +448,6 @@ background-image: url('../img/business-feature-multi-device.png');
     font-size: 12px;
     font-weight: 700;
 }
-
 /*----------------
     TEAM SECTION
 -----------------*/
@@ -572,7 +571,20 @@ background-image: url('../img/business-feature-multi-device.png');
 /*----------------
     FAQ SECTION
 -----------------*/
+.faq-title h2 {
+    margin-bottom: 20px;
+}
 
+.row-faq {
+    margin-left: 30px;
+}
+
+.row-faq h4 {
+    font-size: 14px;
+    padding: 15px 0;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+}
 
 /*----------------
     FOOTER
