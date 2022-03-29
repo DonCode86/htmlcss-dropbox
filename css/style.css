@@ -252,7 +252,21 @@ header .logo, header .main-nav, header li, header a {
     cursor: pointer;
     margin-right: 2px;
     margin-left: 30px;
+    animation: pulse-animation 2s infinite;
 }
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
 
 #annuale:checked, #mensile:checked {
     border-color: #0061ff;
