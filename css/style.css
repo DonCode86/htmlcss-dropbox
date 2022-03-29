@@ -507,7 +507,7 @@ background-image: url('../img/business-feature-multi-device.png');
 }
 
 .square:hover {
-    border: 9px solid rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 3px 10px rgba(0,0,0,0.2);
     cursor: pointer;
 }
 
@@ -544,10 +544,6 @@ background-image: url('../img/business-feature-multi-device.png');
 .second-square-right {
     background-image: url('../img/hearst_corp.svg');
     background-color: #b4d0e7;
-}
-
-.second-square-right:hover {
-    border: 9px solid rgba(0,0,0,0.2);
 }
 
 .third-square, .third-square-right {
