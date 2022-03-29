@@ -199,6 +199,11 @@ header .logo, header .main-nav, header li, header a {
     width: 90%;
     padding-top: 10px;
     margin-bottom: -65px;
+    transition: transform 1s;
+}
+
+.hero-img:hover {
+    transform: scale(1.5);
 }
 
 .down-arrow {
