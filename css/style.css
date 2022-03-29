@@ -94,6 +94,16 @@ body {
     padding: 5px 25px;
     background-color: white;
     color: black;
+    animation: pulsebg infinite 2s;
+}
+
+@keyframes pulsebg {
+	0% { background-color: white} 
+    0% { color: black} 
+	50% { background-color: black}
+    50% { color: white} 
+    75% { background-color: white} 
+    75% { color: black} 
 }
 
 /*----------------
