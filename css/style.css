@@ -214,6 +214,14 @@ header .logo, header .main-nav, header li, header a {
 .down-arrow {
     padding-top: 30px;
     font-size: 35px;
+    cursor: pointer;
+    animation: pulse infinite linear 2s;
+}
+
+@keyframes pulse {
+	0% { padding-top: 15px;} 
+	50% { padding-top: 35px; } 
+	100% { padding-top: 15px; }
 }
 /*----------------
     MAIN
