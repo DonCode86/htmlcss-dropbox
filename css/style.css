@@ -627,11 +627,6 @@ background-image: url('../img/business-feature-multi-device.png');
   border-radius: 5px;
 }
 
-@media screen and (max-width: 640px) {
-  .accordion:after {
-    content: "";
-  }
-}
 
     /* .faq-title h2 {
     margin-bottom: 20px;
