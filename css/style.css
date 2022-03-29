@@ -626,6 +626,14 @@ background-image: url('../img/business-feature-multi-device.png');
   border-radius: 5px;
 }
 
+.tab .title {
+    font-weight: bold;
+}
+
+.panel u {
+    font-weight: bold;
+}
+
 
     /* .faq-title h2 {
     margin-bottom: 20px;
