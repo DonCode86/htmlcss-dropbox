@@ -580,7 +580,6 @@ background-image: url('../img/business-feature-multi-device.png');
 .accordion {
   background: white;
   width: 90%;
-  min-height: 320px;
   margin: 0px auto;
   padding: 20px;
   position: relative;
@@ -653,6 +652,7 @@ background-image: url('../img/business-feature-multi-device.png');
 -----------------*/
 
 footer {
+    margin-top: 80px;
     background-color: black;
     min-height: 400px;
     color: white;
