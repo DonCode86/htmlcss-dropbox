@@ -714,6 +714,7 @@ footer {
 .bottom-footer {
     margin-left: 35px;
     cursor: pointer;
+    display: inline;
 }
 
 .bottom-footer:hover {
