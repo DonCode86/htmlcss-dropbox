@@ -231,11 +231,17 @@ header .logo, header .main-nav, header li, header a {
     border-width: 3px;
 }
 
-.subscription-title h2, .faq-title h2 {
+.subscription-title h2, {
     font-size: 32px;
     font-weight: 800;
     padding-bottom: 15px;
     margin-left: 30px;
+}
+
+.faq-title h2 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 55px;
 }
 
 .subscription-title {
@@ -581,8 +587,12 @@ background-image: url('../img/business-feature-multi-device.png');
   background: white;
   width: 90%;
   margin: 0px auto;
-  padding: 20px;
   position: relative;
+}
+
+.tab {
+     border-top: 1px solid black;
+     padding-top: 19px;
 }
 
 .accordion .title {
@@ -634,26 +644,6 @@ background-image: url('../img/business-feature-multi-device.png');
     font-weight: bold;
 }
 
-
-    /* .faq-title h2 {
-    margin-bottom: 20px;
-}
-
-.row-faq {
-    margin-left: 30px;
-    margin-bottom: 100px;
-}
-
-.row-faq h4 {
-    font-size: 14px;
-    padding: 25px 0;
-    border-top: 1px solid lightgray;
-}
-
-.fa-angle-down {
-    margin-left: 350px;
-    cursor: pointer;
-} */
 
 /*----------------
     FOOTER
